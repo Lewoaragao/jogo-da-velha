@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div>
+      <h1>Jogo da Velha</h1>
+      <div id="players">
+        <div>
+          <span id="player1-name"></span>: <span id="player1-score"></span>
+        </div>
+        <div>
+          <span id="player2-name"></span>: <span id="player2-score"></span>
+        </div>
+      </div>
+      <div id="game">
+        <div class="board-row">
+          <div class="board-cell"></div>
+          <div class="board-cell"></div>
+          <div class="board-cell"></div>
+        </div>
+        <div class="board-row">
+          <div class="board-cell"></div>
+          <div class="board-cell"></div>
+          <div class="board-cell"></div>
+        </div>
+        <div class="board-row">
+          <div class="board-cell"></div>
+          <div class="board-cell"></div>
+          <div class="board-cell"></div>
+        </div>
+      </div>
+      <div id="status"></div>
+      <div id="buttons">
+        <button id="reset">Resetar Jogo</button>
+        <button id="reset-scores">Limpar Pontos</button>
+        <button id="change-names">Mudar Nomes</button>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
